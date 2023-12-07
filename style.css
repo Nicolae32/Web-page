@@ -11,6 +11,25 @@ img {
     margin-right: 20px;
 }
 
-.important {
-    font-weight:bold;
+body {
+
+background:burlywood;
+}
+.container{
+    display:flex;
+    width:200px;
+    height:200px;
+    border:5px solid linen;
+
+}
+.item1{
+    
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    background-color:aqua;
+    
+    
+
+
 }
