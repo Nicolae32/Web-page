@@ -1,35 +1,30 @@
 
-.culoare{
-    color:rgb(203, 90, 23);
-}
-
-img {
-    width: 200px;
-    height:200px;
-    border-radius: 50px; 
-    float:left;
-    margin-right: 20px;
-}
-
 body {
 
-background:burlywood;
-}
-.container{
-    display:flex;
-    width:200px;
-    height:200px;
-    border:5px solid linen;
+
+background: linear-gradient(to left,blue,red);
 
 }
 .item1{
     
-    flex-direction:row;
+    display: flex;
     justify-content:center;
     align-items: center;
-    background-color:aqua;
-    
-    
+    position:relative; 
+    float:top; 
+    background-color:rgb(41,42,45);
+    height:100px;
+    border-radius:25px;
+    padding:2px 20%;
+    gap: 20px;
 
+}
+img {
+    margin-top:40px;
+    transition: rotate 2s;
 
+}
+img:hover{
+    rotate:90deg;
+    rotate:90deg;
 }
